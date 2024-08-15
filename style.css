@@ -20,7 +20,17 @@ p {
     margin: 0 0 10px;
 }
 
+/* Webkit 
+==============*/
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: #040404;
+}
 
+::-webkit-scrollbar-thumb {
+    background-color: rgb(155, 153, 153);
+    border-radius: 8px;
+  }
 
 /* Container
 ===============*/
